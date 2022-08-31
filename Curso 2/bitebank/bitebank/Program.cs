@@ -24,7 +24,8 @@ Console.WriteLine("Saldo da Amanda pré-saque: " + conta2.saldo);
 
 bool saque = conta2.Sacar(50);
 
-Console.WriteLine("Saque realizado? " + saque); */
+Console.WriteLine("Saque realizado? " + saque);
+*/
 
 Console.WriteLine("Saldo da Amanda pré-transferência: " + conta2.saldo);
 Console.WriteLine("Saldo do André pré-transferência: " + conta1.saldo);
