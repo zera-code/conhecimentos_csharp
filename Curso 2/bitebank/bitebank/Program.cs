@@ -21,8 +21,16 @@ conta2.saldo = 100;
 
 
 Console.WriteLine("Saldo da Amanda pré-saque: " + conta2.saldo);
-conta2.Sacar(-50);
+
+bool saque = conta2.Sacar(50);
+
+Console.WriteLine("Saque realizado? " + saque);
+
 Console.WriteLine("Saldo da Amanda pós-saque: " + conta2.saldo);
+
+//bool depositar = conta2.Depositar(60);
+
+Console.WriteLine("Saldo da Amanda pós-depósito: " + conta2.saldo);
 
 
 Console.ReadKey();
