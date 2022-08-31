@@ -1,10 +1,11 @@
-﻿namespace bytebank
+﻿using bytebank;
+using bytebank.Titular;
+
+namespace bytebank
 {
     public class ContaCorrente
     {
-        public string titular_nome;
-        public string titularCpf;
-        public string titularProfissao;
+        public bytebank.Titular.Cliente titular;
 
         public string conta;
         public int numero_agencia;
