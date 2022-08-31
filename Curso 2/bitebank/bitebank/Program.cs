@@ -19,18 +19,21 @@ conta2.numero_agencia = 23;
 conta2.nome_agencia = "Agência Central";
 conta2.saldo = 100;
 
-
+/*
 Console.WriteLine("Saldo da Amanda pré-saque: " + conta2.saldo);
 
 bool saque = conta2.Sacar(50);
 
-Console.WriteLine("Saque realizado? " + saque);
+Console.WriteLine("Saque realizado? " + saque); */
 
-Console.WriteLine("Saldo da Amanda pós-saque: " + conta2.saldo);
+Console.WriteLine("Saldo da Amanda pré-transferência: " + conta2.saldo);
+Console.WriteLine("Saldo do André pré-transferência: " + conta1.saldo);
 
-//bool depositar = conta2.Depositar(60);
+bool transferencia = conta1.Transferir(50, conta2);
 
-Console.WriteLine("Saldo da Amanda pós-depósito: " + conta2.saldo);
+Console.WriteLine("Transferência realizada com sucesso? " + transferencia);
+Console.WriteLine("Saldo da Amanda pós-transferência: " + conta2.saldo);
+Console.WriteLine("Saldo do André pós-transferência: " + conta1.saldo);
 
 
 Console.ReadKey();
