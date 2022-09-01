@@ -3,9 +3,9 @@ using bytebank.Titular;
 
 namespace bytebank
 {
-    public class ContaCorrente
+    public class  ContaCorrente
     {
-        public bytebank.Titular.Cliente titular;
+        public Cliente titular;
 
         public string conta;
         public int numero_agencia;
