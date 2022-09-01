@@ -48,21 +48,26 @@ Console.WriteLine("Saldo do André pós-transferência: " + conta1.saldo);
 //cliente.cpf = "12334455667";
 //cliente.profissao = "programador c#";
 
-ContaCorrente conta3 = new ContaCorrente();
-conta3.titular = new Cliente();
-conta3.conta = "2512352-X";
-conta3.numero_agencia = 35;
-conta3.nome_agencia = "Agencia Central";
-conta3.titular.nome = "André Silva";
-conta3.titular.profissao = "Programador C#";
-conta3.titular.cpf = "123456789";
+//ContaCorrente conta3 = new ContaCorrente();
+//conta3.titular = new Cliente();
+//conta3.conta = "2512352-X";
+//conta3.numero_agencia = 35;
+//conta3.nome_agencia = "Agencia Central";
+//conta3.titular.nome = "André Silva";
+//conta3.titular.profissao = "Programador C#";
+//conta3.titular.cpf = "123456789";
 
-//Console.WriteLine(cliente.nome);
-Console.WriteLine(conta3.titular.nome);
+//Console.WriteLine(conta3.titular.nome);
+//Console.WriteLine(conta3.titular.nome);
 
-if (conta3.titular == null)
-{
-    Console.WriteLine("O titular está nulo");
-}
+//if (conta3.titular == null)
+//{
+//    Console.WriteLine("O titular está nulo");
+//}
+
+
+ContaCorrente conta4 = new ContaCorrente();
+conta4.saldo = -10;
+Console.WriteLine(conta4.saldo);
 
 Console.ReadKey();
