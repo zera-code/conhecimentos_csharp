@@ -5,12 +5,13 @@ namespace bytebank
 {
     public class  ContaCorrente
     {
-        public Cliente titular;
+        public Cliente Titular { get; set; }
 
-        public string conta;
-        public int numero_agencia;
-        public string nome_agencia;
+        public string Conta { get; set; }
+        public int Numero_agencia { get; set; }
+        public string Nome_agencia { get; set; }
         private double saldo;
+
 
 
         public bool Sacar(double valor)

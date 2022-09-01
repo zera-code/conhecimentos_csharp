@@ -1,5 +1,4 @@
 ﻿using bytebank;
-using bytebank;
 using bytebank.Titular;
 
 Console.WriteLine("Seja bem vindo ao seu banco: ByteBank!");
@@ -65,9 +64,11 @@ Console.WriteLine("Saldo do André pós-transferência: " + conta1.saldo);
 //    Console.WriteLine("O titular está nulo");
 //}
 
+Cliente sarah = new Cliente();
 
 ContaCorrente conta4 = new ContaCorrente();
 conta4.Saldo = 10;
+conta4.Titular = sarah;
 Console.WriteLine(conta4.Saldo);
 
 Console.ReadKey();
