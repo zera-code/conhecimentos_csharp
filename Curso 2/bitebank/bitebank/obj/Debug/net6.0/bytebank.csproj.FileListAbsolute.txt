@@ -1,0 +1,15 @@
+C:\Users\arthur.carnauba\Documents\conhecimentos_csharp\Curso 2\bitebank\bitebank\bin\Debug\net6.0\bytebank.exe
+C:\Users\arthur.carnauba\Documents\conhecimentos_csharp\Curso 2\bitebank\bitebank\bin\Debug\net6.0\bytebank.deps.json
+C:\Users\arthur.carnauba\Documents\conhecimentos_csharp\Curso 2\bitebank\bitebank\bin\Debug\net6.0\bytebank.runtimeconfig.json
+C:\Users\arthur.carnauba\Documents\conhecimentos_csharp\Curso 2\bitebank\bitebank\bin\Debug\net6.0\bytebank.dll
+C:\Users\arthur.carnauba\Documents\conhecimentos_csharp\Curso 2\bitebank\bitebank\bin\Debug\net6.0\bytebank.pdb
+C:\Users\arthur.carnauba\Documents\conhecimentos_csharp\Curso 2\bitebank\bitebank\obj\Debug\net6.0\bytebank.csproj.AssemblyReference.cache
+C:\Users\arthur.carnauba\Documents\conhecimentos_csharp\Curso 2\bitebank\bitebank\obj\Debug\net6.0\bytebank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arthur.carnauba\Documents\conhecimentos_csharp\Curso 2\bitebank\bitebank\obj\Debug\net6.0\bytebank.AssemblyInfoInputs.cache
+C:\Users\arthur.carnauba\Documents\conhecimentos_csharp\Curso 2\bitebank\bitebank\obj\Debug\net6.0\bytebank.AssemblyInfo.cs
+C:\Users\arthur.carnauba\Documents\conhecimentos_csharp\Curso 2\bitebank\bitebank\obj\Debug\net6.0\bytebank.csproj.CoreCompileInputs.cache
+C:\Users\arthur.carnauba\Documents\conhecimentos_csharp\Curso 2\bitebank\bitebank\obj\Debug\net6.0\bytebank.dll
+C:\Users\arthur.carnauba\Documents\conhecimentos_csharp\Curso 2\bitebank\bitebank\obj\Debug\net6.0\refint\bytebank.dll
+C:\Users\arthur.carnauba\Documents\conhecimentos_csharp\Curso 2\bitebank\bitebank\obj\Debug\net6.0\bytebank.pdb
+C:\Users\arthur.carnauba\Documents\conhecimentos_csharp\Curso 2\bitebank\bitebank\obj\Debug\net6.0\bytebank.genruntimeconfig.cache
+C:\Users\arthur.carnauba\Documents\conhecimentos_csharp\Curso 2\bitebank\bitebank\obj\Debug\net6.0\ref\bytebank.dll
