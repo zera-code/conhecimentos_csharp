@@ -60,18 +60,34 @@ namespace bytebank
         }
 
 
-        public void DefinirSaldo(double valor)
-        {
-            if (valor < 0)
-            {
-                return;
-            }
-            saldo = valor;
-        }
+        //public void SetSaldo(double valor)
+        //{
+        //    if (valor < 0)
+        //    {
+        //        return;
+        //    }
+        //    saldo = valor;
+        //}
 
-        public double ObterSaldo ()
+        //public double GetSaldo ()
+        //{
+        //    return saldo;
+        //}
+
+        public double Saldo
         {
-            return saldo;
+            get
+            {
+                return saldo;
+            }
+            set
+            {
+                if (value < 0)
+                {
+                    return;
+                }
+                saldo = value;
+            }
         }
 
     }
