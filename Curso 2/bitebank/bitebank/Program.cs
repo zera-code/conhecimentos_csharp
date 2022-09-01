@@ -67,7 +67,7 @@ Console.WriteLine("Saldo do André pós-transferência: " + conta1.saldo);
 
 
 ContaCorrente conta4 = new ContaCorrente();
-conta4.saldo = -10;
-Console.WriteLine(conta4.saldo);
+conta4.DefinirSaldo (10);
+Console.WriteLine(conta4.ObterSaldo());
 
 Console.ReadKey();
