@@ -65,10 +65,14 @@ Console.WriteLine("Saldo do André pós-transferência: " + conta1.saldo);
 //}
 
 Cliente sarah = new Cliente();
+sarah.nome = "Sarah Silva";
 
-ContaCorrente conta4 = new ContaCorrente();
-conta4.Saldo = 10;
+ContaCorrente conta4 = new ContaCorrente(235, "123433-X");
+conta4.Saldo = 100;
 conta4.Titular = sarah;
+Console.WriteLine(conta4.Titular.nome);
 Console.WriteLine(conta4.Saldo);
+Console.WriteLine(conta4.Numero_agencia);
+Console.WriteLine(conta4.Conta);
 
 Console.ReadKey();
