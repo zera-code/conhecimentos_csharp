@@ -132,7 +132,10 @@ namespace bytebank
         {
             Numero_agencia = numero_agencia;
             Conta = conta;
+            TotalDeContasCriadas += 1;
         }
+
+        public static int TotalDeContasCriadas { get; set; }
 
     }
 }

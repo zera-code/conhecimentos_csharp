@@ -64,15 +64,21 @@ Console.WriteLine("Saldo do André pós-transferência: " + conta1.saldo);
 //    Console.WriteLine("O titular está nulo");
 //}
 
-Cliente sarah = new Cliente();
-sarah.nome = "Sarah Silva";
+//Cliente sarah = new Cliente();
+//sarah.nome = "Sarah Silva";
 
-ContaCorrente conta4 = new ContaCorrente(235, "123433-X");
-conta4.Saldo = 100;
-conta4.Titular = sarah;
-Console.WriteLine(conta4.Titular.nome);
-Console.WriteLine(conta4.Saldo);
-Console.WriteLine(conta4.Numero_agencia);
-Console.WriteLine(conta4.Conta);
+//ContaCorrente conta4 = new ContaCorrente(235, "123433-X");
+//conta4.Saldo = 100;
+//conta4.Titular = sarah;
+//Console.WriteLine(conta4.Titular.nome);
+//Console.WriteLine(conta4.Saldo);
+//Console.WriteLine(conta4.Numero_agencia);
+//Console.WriteLine(conta4.Conta);
+
+ContaCorrente conta5 = new ContaCorrente(235, "123433-X");
+
+ContaCorrente conta6 = new ContaCorrente(234, "155533-X");
+
+Console.WriteLine(ContaCorrente.TotalDeContasCriadas);
 
 Console.ReadKey();
