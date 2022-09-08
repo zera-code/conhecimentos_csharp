@@ -9,18 +9,21 @@ Funcionario pedro = new Funcionario();
 pedro.Nome = "Pedro Miguel";
 pedro.Cpf = "12334566";
 pedro.Salario = 2000;
+Console.WriteLine("Total de funcionarios: " + Funcionario.totalDeFuncionarios);
 
 
 Diretor paula = new Diretor();
 paula.Nome = "Paula";
 paula.Cpf = "9999999999";
 paula.Salario = 5000;
+Console.WriteLine("Total de funcionarios: " + Funcionario.totalDeFuncionarios);
 
 
 Funcionario andre = new Diretor();
 andre.Nome = "André";
 andre.Cpf = "9999976565";
 andre.Salario = 100;
+Console.WriteLine("Total de funcionarios: " + Funcionario.totalDeFuncionarios);
 
 Console.WriteLine("Bonificação: " + pedro.getBonificacao());
 Console.WriteLine("Bonificação: " + paula.getBonificacao());

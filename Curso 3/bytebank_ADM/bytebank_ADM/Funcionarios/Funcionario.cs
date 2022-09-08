@@ -8,20 +8,24 @@ namespace bytebank_ADM.Funcionarios
 {
     public class Funcionario
     {
-        // 0 - funcionário
-        // 1 - diretor
-        // 2 - designer
-        // N - ...
-
         public string Nome { get; set; }
 
         public string Cpf { get; set; }
 
         public double Salario { get; set; }
 
-        public double getBonificacao()
+        public virtual double getBonificacao()
         {
-            return Salario * 0.1;
+            return Salario * 0.10;
         }
+
+        public static int totalDeFuncionarios { get; private set; }
+
+        public Funcionario()
+        {
+            Console.WriteLine("Criando um funcionario");
+            totalDeFuncionarios++;
+        }
+
     }
 }
