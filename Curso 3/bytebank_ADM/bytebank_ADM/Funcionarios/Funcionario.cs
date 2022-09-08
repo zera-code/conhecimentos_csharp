@@ -24,7 +24,7 @@ namespace bytebank_ADM.Funcionarios
         public Funcionario(string cpf, double salario)
         {
             this.Cpf = cpf;
-            this.ALeio = salario;
+            this.Salario = salario;
             Console.WriteLine("Criando um funcionario");
             totalDeFuncionarios++;
         }
