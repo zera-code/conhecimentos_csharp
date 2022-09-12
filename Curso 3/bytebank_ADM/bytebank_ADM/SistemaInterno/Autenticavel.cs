@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace bytebank_ADM.SistemaInterno
 {
-    public abstract class Autenticavel : Funcionario
+    public abstract class Autenticavel
     {
         public Autenticavel(string cpf, double salario) : base(cpf, salario)
         {
