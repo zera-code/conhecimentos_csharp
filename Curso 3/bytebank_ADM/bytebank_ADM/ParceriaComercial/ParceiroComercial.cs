@@ -7,27 +7,13 @@ using System.Threading.Tasks;
 
 namespace bytebank_ADM.ParceriaComercial
 {
-    public class ParceiroComercial : Autenticavel
+    public class ParceiroComercial : IAutenticavel
     {
-        public ParceiroComercial(string cpf, double salario) : base(cpf, salario)
-        {
-        }
-
         public string Senha { get; set; }
-
-        public override void aumentarSalario()
-        {
-            throw new NotImplementedException();
-        }
 
         public bool Autenticar(string senha)
         {
             return this.Senha == senha;
-        }
-
-        public override double getBonificacao()
-        {
-            throw new NotImplementedException();
         }
     }
 }
