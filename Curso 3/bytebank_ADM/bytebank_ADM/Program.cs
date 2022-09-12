@@ -46,13 +46,13 @@ void UsarSistema()
     ursula.Nome = "Ursula";
     ursula.Senha = "321";
 
-    Designer pedro = new Designer("833.222.048-39");
-    pedro.Nome = "Pedro";
-    pedro.Senha = "123";
+    //Designer pedro = new Designer("833.222.048-39");
+    //pedro.Nome = "Pedro";
+    //pedro.Senha = "123";
 
     sistemainterno.Logar(roberta, "123");
     sistemainterno.Logar(ursula, "123");
-    sistemainterno.Logar(pedro, "123");
+    //sistemainterno.Logar(pedro, "123");
 
 }
 

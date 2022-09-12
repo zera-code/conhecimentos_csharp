@@ -1,4 +1,5 @@
-﻿using System;
+﻿using bytebank_ADM.SistemaInterno;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data.SqlTypes;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace bytebank_ADM.Funcionarios
 {
-    public class GerenteDeContas:Funcionario
+    public class GerenteDeContas : Autenticavel
     {
         public GerenteDeContas(string cpf) : base(cpf, 4000)
         {
